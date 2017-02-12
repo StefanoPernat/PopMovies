@@ -3,6 +3,14 @@
     <string name="app_name">PopMovies</string>
     <string name="action_settings">Settings</string>
 
-    <!-- API -->
+    <!-- API Strings-->
     <string name="api_key"></string>
+
+    <!-- Settings Strings -->
+    <string name="movie_settings_general">movie.settings.general</string>
+    <string name="movie_settings_general_text">General</string>
+    
+    <string name="movie_settings_sort">movie.settings.sort</string>
+    <string name="movie_settings_sort_text">Sort By</string>
+    <string name="movie_settings_sort_summary">Select the sort criteria</string>
 </resources>
