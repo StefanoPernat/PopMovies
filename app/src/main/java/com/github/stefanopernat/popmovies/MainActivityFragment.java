@@ -21,9 +21,6 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        Log.d(TAG, Util.buildMovieUrl(getContext(), R.string.api_key, "popular", 1).toString());
         return inflater.inflate(R.layout.fragment_main, container, false);
-
     }
 }
