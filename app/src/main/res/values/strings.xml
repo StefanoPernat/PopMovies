@@ -1,4 +1,8 @@
 <resources>
+    <!-- Main application Strings -->
     <string name="app_name">PopMovies</string>
     <string name="action_settings">Settings</string>
+
+    <!-- API -->
+    <string name="api_key"></string>
 </resources>
