@@ -5,7 +5,9 @@
         android:title="@string/movie_settings_general_text">
 
         <ListPreference
-            android:key=""
-            android:title=""/>
+            android:key="@string/movie_settings_sort"
+            android:title="@string/movie_settings_sort_text"
+            android:summary="@string/movie_settings_sort_summary"
+            android:entries=""/>
     </PreferenceCategory>
 </PreferenceScreen>
