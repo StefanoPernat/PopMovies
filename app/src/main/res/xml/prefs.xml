@@ -8,6 +8,14 @@
             android:key="@string/movie_settings_sort"
             android:title="@string/movie_settings_sort_text"
             android:summary="@string/movie_settings_sort_summary"
-            android:entries=""/>
+            android:entries="@array/sort_order_entries"
+            android:entryValues="@array/sort_order_values"
+            android:defaultValue="@string/movie_settings_sort_default"/>
+
+        <EditTextPreference
+            android:key="@string/movie_settings_pages"
+            android:title="@string/movie_settings_pages_text"
+            android:summary="@string/movie_settings_pages_summary"
+            android:defaultValue="@string/movie_settings_pages_default"/>
     </PreferenceCategory>
 </PreferenceScreen>
