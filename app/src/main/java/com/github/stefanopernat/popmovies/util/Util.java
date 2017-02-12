@@ -18,6 +18,7 @@ public class Util {
         CONSTANTS  --------------------------------------------------------------------------------
     */
 
+    // API ----------------------------------------------------------------------------------------
     private static final String BASE_MOVIE_URL = "https://api.themoviedb.org/3/movie/";
 
     private static final String API_QUERY = "api_key";
@@ -25,6 +26,13 @@ public class Util {
     private static final String PAGE_QUERY = "page";
 
     private static final String LANGUAGE_PARAM = "en-US";
+
+    // Preferences --------------------------------------------------------------------------------
+    public static final String SORT_ORDER_PREF_KEY = "movie.settings.sort";
+    public static final String SORT_ORDER_PREF_DEFAULT = "popular";
+
+    public static final String PAGES_PREF_KEY = "movie.settings.pages";
+    public static final int PAGES_PREF_DEFAULT = 1;
 
 
 
