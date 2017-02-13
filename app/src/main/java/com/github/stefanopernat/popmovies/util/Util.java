@@ -34,7 +34,15 @@ public class Util {
     public static final String PAGES_PREF_KEY = "movie.settings.pages";
     public static final int PAGES_PREF_DEFAULT = 1;
 
-
+    // JSON ---------------------------------------------------------------------------------------
+    public static final String JSON_MOVIES_ARRAY = "results";
+    public static final String JSON_MOVIE_ID = "id";
+    public static final String JSON_MOVIE_TITLE = "original_title";
+    public static final String JSON_MOVIE_RELEASE_DATE = "release_date";
+    public static final String JSON_MOVIE_TUMBNAIL = "poster_path";
+    public static final String JSON_MOVIE_BACKDROP = "backdrop_path";
+    public static final String JSON_MOVIE_VOTE_AVERAGE = "vote_average";
+    public static final String JSON_MOVIE_PLOT = "overview";
 
     /*
         METHODS   ---------------------------------------------------------------------------------

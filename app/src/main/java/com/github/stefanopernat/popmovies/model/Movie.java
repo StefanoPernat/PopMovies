@@ -6,6 +6,7 @@ package com.github.stefanopernat.popmovies.model;
  */
 
 public class Movie {
+    private int mId;
     private String mTitle;
     private String mReleaseDate;
     private String mTumbnail;
@@ -15,15 +16,24 @@ public class Movie {
 
     public Movie(){}
 
-    public Movie(String title, String releaseDate, String tumbnail,
+    public Movie(int id, String title, String releaseDate, String tumbnail,
                             String backdrop, double voteAverage, String plot){
 
+        mId = id;
         mTitle = title;
         mReleaseDate = releaseDate;
         mTumbnail = tumbnail;
         mBackdrop = backdrop;
         mVoteAverage = voteAverage;
         mPlot = plot;
+    }
+
+    public int getId() {
+        return mId;
+    }
+
+    public void setId(int id) {
+        mId = id;
     }
 
     public String getTitle() {
