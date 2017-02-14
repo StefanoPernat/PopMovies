@@ -1,5 +1,6 @@
 package com.github.stefanopernat.popmovies;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
@@ -92,8 +93,8 @@ public class MainActivityFragment extends Fragment implements MoviesAdapter.Movi
 
     @Override
     public void onClick(Movie movie) {
-        Log.d(TAG, "Open detail for "+movie.getTitle());
-        Toast.makeText(getContext(), "Open detail for "+movie.getTitle(), Toast.LENGTH_SHORT).show();
+        Intent detailIntent = new Intent(getContext(), DetailActivity.class);
+        startActivity(detailIntent);
     }
 
     @Override
