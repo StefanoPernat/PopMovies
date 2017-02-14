@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.github.stefanopernat.popmovies.adapters.MoviesAdapter;
 import com.github.stefanopernat.popmovies.model.Movie;
@@ -27,7 +28,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.util.ArrayList;
 
 
-public class MainActivityFragment extends Fragment {
+public class MainActivityFragment extends Fragment implements MoviesAdapter.MoviesAdapterOnClickHandler {
     private final String TAG = MainActivityFragment.class.getSimpleName();
 
     private RecyclerView mMoviesRecyclerView;
@@ -36,7 +37,7 @@ public class MainActivityFragment extends Fragment {
     @Subscribe(threadMode = ThreadMode.MAIN) public void onEvent(ArrayList<Movie> moviesList){
         Log.d(TAG, "movies: "+moviesList.size());
 
-        mMoviesAdapter = new MoviesAdapter();
+        mMoviesAdapter = new MoviesAdapter(this);
         mMoviesAdapter.setContext(getContext());
         mMoviesAdapter.setMovies(moviesList);
 
@@ -87,6 +88,12 @@ public class MainActivityFragment extends Fragment {
         });*/
 
         return viewRoot;
+    }
+
+    @Override
+    public void onClick(Movie movie) {
+        Log.d(TAG, "Open detail for "+movie.getTitle());
+        Toast.makeText(getContext(), "Open detail for "+movie.getTitle(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
