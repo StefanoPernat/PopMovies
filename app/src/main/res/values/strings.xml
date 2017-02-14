@@ -4,19 +4,20 @@
     <string name="action_settings">Settings</string>
 
     <!-- API Strings-->
-    <string name="api_key">f5b6d3b7d2ebe4063ba7ab9bfd2682f5</string>
+    <string name="api_key"></string>
 
     <!-- Settings Strings -->
     <string name="movie_settings_general">movie.settings.general</string>
     <string name="movie_settings_general_text">General</string>
-    
+
     <string name="movie_settings_sort">movie.settings.sort</string>
     <string name="movie_settings_sort_text">Sort By</string>
     <string name="movie_settings_sort_summary">Select the sort criteria</string>
     <string name="movie_settings_sort_default">popular</string>
-    
+
     <string name="movie_settings_pages">movie.settings.pages</string>
     <string name="movie_settings_pages_text">Pages</string>
     <string name="movie_settings_pages_summary">Set the pages to display</string>
     <string name="movie_settings_pages_default">1</string>
+    <string name="title_activity_detail">DetailActivity</string>
 </resources>
