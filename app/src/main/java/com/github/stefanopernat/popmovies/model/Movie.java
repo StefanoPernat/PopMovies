@@ -123,5 +123,5 @@ public class Movie implements Parcelable{
         public Movie[] newArray(int size) {
             return new Movie[size];
         }
-    }
+    };
 }

@@ -48,6 +48,9 @@ public class Util {
     public static final String JSON_MOVIE_VOTE_AVERAGE = "vote_average";
     public static final String JSON_MOVIE_PLOT = "overview";
 
+    // MOVIE --------------------------------------------------------------------------------------
+    public static final String MOVIE_IDENTIFIER =
+            "com.github.stefanopernat.popmovies.selectedmovie";
     /*
         METHODS   ---------------------------------------------------------------------------------
     */
