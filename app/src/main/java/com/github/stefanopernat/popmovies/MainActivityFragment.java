@@ -94,6 +94,7 @@ public class MainActivityFragment extends Fragment implements MoviesAdapter.Movi
     @Override
     public void onClick(Movie movie) {
         Intent detailIntent = new Intent(getContext(), DetailActivity.class);
+        detailIntent.putExtra()
         startActivity(detailIntent);
     }
 
