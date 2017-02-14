@@ -4,7 +4,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- API Strings-->
-    <string name="api_key"></string>
+    <string name="api_key">f5b6d3b7d2ebe4063ba7ab9bfd2682f5</string>
 
     <!-- Settings Strings -->
     <string name="movie_settings_general">movie.settings.general</string>

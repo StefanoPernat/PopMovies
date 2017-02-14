@@ -27,6 +27,10 @@ public class Util {
 
     private static final String LANGUAGE_PARAM = "en-US";
 
+    public static final String BASE_IMAGE_URL = "https://image.tmdb.org/t/p/";
+
+    public static final String IMAGE_WIDTH_SEGMENT = "w185";
+
     // Preferences --------------------------------------------------------------------------------
     public static final String SORT_ORDER_PREF_KEY = "movie.settings.sort";
     public static final String SORT_ORDER_PREF_DEFAULT = "popular";

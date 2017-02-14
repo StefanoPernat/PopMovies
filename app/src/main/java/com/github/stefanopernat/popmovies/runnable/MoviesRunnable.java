@@ -117,8 +117,8 @@ public class MoviesRunnable implements Runnable {
                 id = jsonMovie.getInt(Util.JSON_MOVIE_ID);
                 title = jsonMovie.getString(Util.JSON_MOVIE_TITLE);
                 releaseDate = jsonMovie.getString(Util.JSON_MOVIE_RELEASE_DATE);
-                tumbnail = jsonMovie.getString(Util.JSON_MOVIE_TUMBNAIL);
-                backdrop = jsonMovie.getString(Util.JSON_MOVIE_BACKDROP);
+                tumbnail = jsonMovie.getString(Util.JSON_MOVIE_TUMBNAIL).replace("/", "");
+                backdrop = jsonMovie.getString(Util.JSON_MOVIE_BACKDROP).replace("/", "");
                 voteAverage = jsonMovie.getDouble(Util.JSON_MOVIE_VOTE_AVERAGE);
                 plot = jsonMovie.getString(Util.JSON_MOVIE_PLOT);
 
