@@ -8,15 +8,15 @@ This repository will be a copy of my previous [PopularMovies app](https://github
 
 #### User Interface - Layout
 
-- Movies are displayed in the main layout via a grid of their corresponding movie tumbnails.
+- Movies are displayed in the main layout via a grid of their corresponding movie tumbnails. **[DONE]**
 - UI contains an element (spinner or settings menu) to toggle the sort order of the movies by: **most popular**, **highest rated**. **[DONE]**
-- UI contains a screen for displaying the details for a selected movie.
+- UI contains a screen for displaying the details for a selected movie. **[DONE]**
 - Movie details layout contains **title**, **release date**, **movie poster**, **vote average**, **plot synopsis**.
 
 #### User Interface - Function
 
-- When the user changes sort criteria, the main view gets updated correctly
-- When a movie poster tumbnail is selected the movie detail screen is launched.
+- When the user changes sort criteria, the main view gets updated correctly **[DONE]**
+- When a movie poster tumbnail is selected the movie detail screen is launched. **[DONE]**
 
 #### Network API Implementation
 
