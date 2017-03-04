@@ -24,6 +24,7 @@ In the background tread, app queries the `/movie/popular` or `/movie/top_rated` 
 
 ### What I will use
 
-- EventBus
-- RecyclerView (and ViewHolder)
-- ButterKnife [not sure] 
+- [x] EventBus
+- [x] RecyclerView (and ViewHolder)
+
+
