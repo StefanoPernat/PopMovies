@@ -27,4 +27,32 @@ In the background tread, app queries the `/movie/popular` or `/movie/top_rated` 
 - [x] EventBus
 - [x] RecyclerView (and ViewHolder)
 
+## Part II 
 
+For **Part II** I decided to get rid of EventBus and use Loaders instead
+
+### The rubic
+
+#### User Interface - Layout
+
+- [ ] Movie Details layout contains a section for displaying trailer videos and user reviews
+ 
+#### User Interface - Function
+ 
+- [ ] When a trailer is selected, app uses an intent to launch the trailer
+- [ ] In the movie detail screen, a user can tap a button (like a star) to mark it as favorite
+
+### Network API implementation
+
+- [ ] App requests for related videos for a selected movie via the `/movie/{id}/videos` endpoint in a background thread and displays those details when the user selects a movie
+- [ ] App requests the users review for a selected movie via the `/movie/{id}/reviews` endpoint in a background thread and displays those details when the user selects a movie
+
+### Data Persistence
+
+- [ ] The titles and ids of the user's favorite movies are stored in a Content Provider backed by a SQLite database, the Content Provider is updated whenever the user favorites and un-favorites a movie
+- [ ] When the user select the favorites settings option the main view updates showing the favorite movies collection of the user based on the content provider
+
+# What will I use
+
+- [ ] Loader
+- [ ] Content Provider
